@@ -40,6 +40,25 @@ const moviesController = {
             .catch(function (error) {
                 res.render('../views/error', { error });
             })
+    },
+    add: function (req, res) {
+        // TODO   
+    },
+    create: function (req, res) {
+        // TODO
+    },
+    edit: function(req, res) {
+        // TODO
+    },
+    update: function (req,res) {
+        // TODO
+    },
+    delete: function (req, res) {
+        // TODO
+    },
+    destroy: function (req, res) {
+        // TODO
     }
+
 }
 module.exports = moviesController;
